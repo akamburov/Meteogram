@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Meteogram</string>
+    <string name="app_desc">Meteogram shows a time cross-section of data for a specific weather station</string>
+    <string name="meteogram_desc">The current meteogram</string>
+    <string name="meteogram_location">Please load a location</string>
+
+    <string name="search">Location</string>
+    <string name="search_hint">Search Locations</string>
+    <string name="favorites">Favorites</string>
+    <string name="refresh">Refresh</string>
+    <string name="settings">Settings</string>
+    <string name="add_to_favorites">Add to Favorites</string>
+
+    <string name="select_location">Select location</string>
+    <string name="no_location">No locations available</string>
+
+    <string name="loading">Loading meteogram…</string>
+
+    <string name="location_url">http://www.foreca.com/meteogram.php?loc_id=%s&amp;mglang=en&amp;units=metrickmh&amp;tf=24h</string>
+    <string name="city_search_url">http://pw.foreca.com/gp/search.php?q=%s</string>
+</resources>

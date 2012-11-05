@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/search"
+          android:icon="@drawable/ic_menu_search"
+          android:title="@string/search"
+          android:alphabeticShortcut="s"
+          android:showAsAction="always|collapseActionView"
+          android:actionViewClass="android.widget.SearchView" />
+    <item android:id="@+id/favorites"
+          android:icon="@drawable/ic_menu_star"
+          android:title="@string/favorites"
+          android:alphabeticShortcut="f"
+          android:showAsAction="always" />
+    <item android:id="@+id/refresh"
+          android:icon="@drawable/ic_menu_refresh"
+          android:title="@string/refresh"
+          android:alphabeticShortcut="r"
+          android:showAsAction="never" />
+    <item android:id="@+id/add_to_favorites"
+          android:icon="@drawable/ic_menu_star"
+          android:title="@string/add_to_favorites"
+          android:alphabeticShortcut="n"
+          android:showAsAction="never" />
+    <item android:id="@+id/settings"
+          android:icon="@drawable/ic_menu_preferences"
+          android:title="@string/settings"
+          android:alphabeticShortcut="l"
+          android:showAsAction="never" />
+</menu>
